@@ -61,8 +61,8 @@ var Fireworks = (function() {
    * Pass through function to create a
    * new firework on touch / click
    */
-  function createFirework() {
-    createParticle();
+  function createFirework(e) {
+    createParticle(pos={x : e.offsetX, y : 0});
   }
 
   /**

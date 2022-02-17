@@ -36,6 +36,7 @@ var Particle = function (pos, target, vel, marker, usePhysics) {
   this.usePhysics = usePhysics || false;
 
 };
+
 /**
  * Functions that we'd rather like to be
  * available to all our particles, such
